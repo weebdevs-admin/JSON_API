@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input{
+    width: 350px;
+    padding-left: 10px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1.5px solid  rgb(6, 61, 228);
+}
+.btn{
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid  rgb(52, 228, 39);
+    background-color: rgb(52, 228, 39);
+    color: white;
+    cursor: pointer;
+}
+.card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card__item{
+    margin: 10px;
+    width: 400px;
+    border: 1px solid #000;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.title{
+    margin-bottom: 10px;
+}
+.email{
+    text-decoration: none;
+}
+.comment{
+    margin-top: 10px;
+}
