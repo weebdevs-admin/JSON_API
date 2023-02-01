@@ -6,7 +6,7 @@ fetch('https://jsonplaceholder.typicode.com/comments') // API ULANDI
     .then((res) => res.json())
     .then((data) => {
         let fuldata = data.slice(0, 5)
-
+        elList.innerHTML = ''
         function mapper(fuldata) {
             elList.innerHTML = ''
             fuldata.forEach((e) => {
